@@ -6,9 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="ass3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
 </head>
 <body>
-   
+    
+    <div class="bannner">
+        <div id="particles-js"></div>
+    <div class="titlee"><h3>Start your journey<span style="color:  rgba(247, 7, 118, 0.7);"> Now!</span> </h3> <br> 
+        <p>You'll find the biggest collection of games, nearly any game that pops in your head </p>  <br>
+    <button id="button1" class="button1">Begin</button>
+    </div>
+</div>
+
+
+    <div class="loading">
+        <div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+    </div>
     
     <nav>
         <div class="nav">
@@ -37,19 +51,13 @@
 
         </div>
     </nav>
-    <div class="backimage">
-        <img src="Games/bg.jpg" alt="">
-        <div class="overlayyy">
-            <div class="titlee"><h3>Welcome to our <span style="color:  rgba(247, 7, 118, 0.7);">Games</span> </h3> <br>
-            <p>lorem ipsum, dolor sit amet consecteur adipiscing elit.orem ipsum, dolor sit amet consecteur adipiscing elit</p> <br>
-        <button class="button1">Go To Play</button>
-        </div>
-        </div>
-    </div> <br> <br> <br> <br>
 
+
+    
     <!-- ------------------------------------------------------------------------------------------------------ -->
     <div class="gameplay">
-        <span id="GP">Gameplay</span> 
+        <span id="GP">Gameplay </span>  
+        
     </div> <br> <br> <br>
     
     <div class="jcontainer">
@@ -160,8 +168,12 @@
 <!-- ------------------------------------------------------------------------------------------------------ -->
 
 <div class="contacts">
-    <p class="pcont">Contacts</p> <br>
-    <input type="text" class=" inputclass" placeholder="Enter Game Name"> <br><br>
+    <h4 class="pcont">Contacts</h4> <br>
+    <input id="searchInput" type="text" class=" inputclass" placeholder="Enter Game Name">
+      
+    <p>
+    </p>
+     <br><br>
     <select class="selectclass">
         <option value="Select Game play" >Select Game play</option>
         <option value="Racing">Racing</option>
@@ -169,11 +181,16 @@
         <option value="Action">Action</option>
       </select> <br><br>
       <textarea class="txtclass" ></textarea> <br><br>
-    <button class="sendbtn">Send Request</button>
+    <button id="sendreq" class="sendbtn">Send Request</button>
 </div>
-    
 
-    
+<button onclick="topFunction()" id="myBtn" title="Scroll Top">Top of the page</button>
+
+
+<script src="assets/jquery-3.6.4.min.js"></script>
+<script src="assets/particles.js"></script>
+<script src="assets/script.js"></script>
+
 </body>
 
 </html>

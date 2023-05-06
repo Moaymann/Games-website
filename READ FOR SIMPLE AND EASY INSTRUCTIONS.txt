@@ -1,0 +1,19 @@
+#1 - first page the registration page
+
+. username first letter must be capital
+. email must be @gmail
+. password not less than 3 numbers
+
+
+#2 -second page login page
+
+. must use admin@gmail.com
+. password= 123456
+
+#3 third page the gaming page
+
+. you must scroll 400+ px to view the scroll top button
+
+. in the bottom games validation you must enter the name of one of the 3 games 'Asphalt, Need for speed, the last of us'
+
+. CLICK THE BEGIN BUTTON TO TAKE YOU THE LAST OF US GAME PAGE
